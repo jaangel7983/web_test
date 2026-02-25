@@ -10,6 +10,7 @@
         .active { color: red; font-weight: bold; } /* 標記目前頁面 */
         header, footer { background: #eee; padding: 20px; }
     </style>
+    <script src="./nnid.js"></script>
 </head>
 <body>
 
@@ -18,6 +19,27 @@
     <main>
         <h1>這是首頁 (Index)</h1>
         <p>這裡是首頁獨有的封面圖與內容...</p>
+
+        <div class="Text">
+            完成履歷
+            <ol>
+                <li>
+                    <label>
+                        <input type="checkbox" name="step1" value="completed"> crawler project https://www.skyscanner.com.tw/
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="step2" value="completed"> 整理 機器學習的文件 完整練習算法
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="step3" value="completed"> 完善個人網站
+                    </label>
+                </li>
+            </ol>
+         </div>
     </main>
 
     <div id="global-footer"></div>

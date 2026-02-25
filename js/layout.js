@@ -14,9 +14,10 @@ const headerTemplate = `
 
 const footerTemplate = `
     <footer>
-        <p>&copy; 2025 Brand Name. 版權所有。</p>
+        <p>&copy; 2026 Brand Name. 版權所有。</p>
     </footer>
 `;
+
 
 // 主要執行函式
 function renderLayout() {
