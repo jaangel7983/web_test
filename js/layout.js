@@ -7,7 +7,7 @@ const headerTemplate = `
             <a href="index.html" data-page="index">首頁</a> | 
             <a href="about.html" data-page="about">關於我們</a> | 
             <a href="product.html" data-page="product">產品服務</a> | 
-            <a href="contact.html" data-page="contact">聯絡我們</a>
+            <a href="contact_to_me.html" data-page="contact">聯絡我們</a>
         </nav>
     </header>
 `;
